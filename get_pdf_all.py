@@ -43,7 +43,7 @@ for kanpou in kanpous:
             print("まだ発行された最新号がありません。")
 
 
-        ##裁判所部分のpdfをダウンロード
+        ##裁判所部分のpdfファイルをダウンロード
         pdf_list = []
         for page_number in range(int(first_page_number), int(last_page_number)):
             if page_number < 10:
